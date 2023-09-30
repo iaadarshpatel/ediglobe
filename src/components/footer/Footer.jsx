@@ -86,7 +86,6 @@ const Footer = () => {
       <a href="#"><FaTwitter/></a>
       <a href="#"><FaLinkedin/></a>
       <a href="#"><FiTwitter/></a>
-      <a href="#"><FiTwitter/></a>
       </div>
       </div>
     </div>
