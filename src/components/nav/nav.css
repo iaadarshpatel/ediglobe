@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Rubik:wght@500;600;700;800;900&display=swap');
+
+.logo a{
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: #1e2a5a ;
+}
+
+
+/* Add this to your CSS file */
+.navbar-toggler {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 99999999;
+  }
+  
+
+.navbar-bg{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    transition: 0.4s, all 0.3s linear;
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--bgcolor);
+    max-height: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--text-color);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--logo-primary-color);
+}
+
+.navbar{
+    max-height: 80px;
+}
+
+.navbar li{
+    margin-right: 40px;
+}
+
+.navbar li a{
+    font: 500 14px/80px "Rubik", sans-serif;
+}
+
+.navbar li a:hover{
+    color: var(--logo-color)!important;
+}
+
+.btn-outline-success{
+    border: 1px solid var(--text-color);
+    color: var(--text-color);  
+}
+
+.btn-outline-success:hover{
+    border: 1px solid var(--bgcolor);
+    background: var(--logo-color);
+    color: var(--text-color);
+}
+.navbar.colorChange{
+    transition: all 0.5s ease 0s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-brand{
+        font-weight: bold;
+}
+
+
+@media (max-width: 997px) {
+    .show{
+        height: 100vh;
+        width: 100%;
+        background: var(--bgcolor);
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10%;
+        opacity: 0; /* Start with opacity at 0 */
+        overflow: hidden; /* Hide overflow content */
+        transition: opacity .5s ease-in, height 0.1s ease; 
+        animation-delay: 0.8s;
+        animation-name: fadeIn;
+    }
+    /* Styles for the mobile menu when open */
+    .show.open {
+        opacity: 1; /* Fade in the menu */
+        height: 100vh; /* Slide down to full height */
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 25%;
+        
+    }
+    .navbar li{
+        margin-right: 0px;
+        transition-delay: 2s;
+    }
+
+    .navbar li a{
+        font-size: 1.5rem;
+    }
+
+    .d-flex{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 5%;
+    }
+    .btn-outline-success{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 997px) {
+    #logo{
+        display: none;
+    
+    }
+}
+
+/* 
+#55e3ea
+#04bbdf
+#016ca5
+#1e2a5a 
+*/
+
+@media (min-width: 997px) {
+    .show{
+        display: none;
+    }
+}
+
+
+
+/* =============== MEDIA QUERIES (LARGE DEVICES) ==============*/
+
+
+@media screen and (min-width: 990px) and (max-width: 1324px) {
+   
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==============*/
+@media screen and (max-width: 500px){
+     
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ==============*/
+@media screen and (max-width: 400px){
+
+}
+
+
