@@ -53,12 +53,12 @@ const Course = () => {
     <section id='course' className='section_gap'>
 
     <div className="container">
-        <div className="main_title">
+        <div className="main_title" data-aos="fade-up">
           <h2>Our Popular Courses</h2>
           <p>Replenish man have thing gathering lights yielding shall you</p>
         </div>
         
-        <div className="courses_container">
+        <div className="courses_container"  data-aos="fade-up" data-aos-offset="0">
 
         {
         data.map(({id, Image, price, course_tag_name, course_name, course_detail, auth_image, auth_name, user_icon, like_icon}) => {

@@ -1,7 +1,8 @@
-import React, { useState, useRef} from 'react'
+import React, { useState} from 'react'
 import './nav.css'
 import { LiaTimesSolid } from 'react-icons/lia';
 import { FaBarsStaggered } from 'react-icons/fa6';
+import logo from "../../assets/EdiGlobe Website-01.png"
 
 
 const Nav = () => {
@@ -36,7 +37,8 @@ const Nav = () => {
     <section className="navbar-bg">
       <nav className={`navbar navbar-expand-lg navbar-light ${colorChange ? 'navbar colorChange' : 'navbar'}`}>
         <div className="container">
-            <a className="navbar-brand" href="">EdiGlobe</a>
+            
+            <img src={logo} alt="course_pic" />
             <button
             className="navbar-toggler"
             type="button"

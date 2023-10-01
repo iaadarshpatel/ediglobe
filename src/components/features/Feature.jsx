@@ -31,7 +31,7 @@ const Feature = () => {
   return (
     <section id='feature' className='section_gap'>
       <div  className='container'>
-        <div className="main_title">
+        <div className="main_title" data-aos="fade-up">
           <h2>Awesome Feature</h2>
           <p>Replenish man have thing gathering lights yielding shall you</p>
         </div>
@@ -41,7 +41,7 @@ const Feature = () => {
         data.map(({id, logo, feature_name, feature_detail}) => {
           return (
 
-            <div className="features" key={id}>
+            <div className="features" key={id} data-aos="fade-up">
               <div className="single_feature">
                   <i className='icon'>{logo}</i>
                 <div className="desc">

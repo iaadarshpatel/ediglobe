@@ -78,16 +78,15 @@ const Footer = () => {
 
       <hr/>
       <div class="row footer-bottom d-flex justify-content-between">
-      <p class="col-lg-8 col-sm-12 footer-text m-0 text-white"> Copyright &copy; All rights reserved </p>
-      <div className="row footer-bottom d-flex">
-      <div className="col-lg-4 col-sm-12 footer-social">
-      <a href="#"><FiTwitter/></a>
-      <a href="#"><FaFacebookF/></a>
-      <a href="#"><FaTwitter/></a>
-      <a href="#"><FaLinkedin/></a>
-      <a href="#"><FiTwitter/></a>
-      </div>
-      </div>
+            <p class="col-lg-8 col-sm-12 footer-text m-0 text-white"> Copyright &copy; All rights reserved </p>
+        <div className="row footer-bottom d-flex">
+          <div className="col-lg-4 col-sm-12 footer-social">
+            <a href="#"><FiTwitter/></a>
+            <a href="#"><FaFacebookF/></a>
+            <a href="#"><FaTwitter/></a>
+            <a href="#"><FaLinkedin/></a>
+          </div>
+        </div>
     </div>
     </div>
     </footer>
