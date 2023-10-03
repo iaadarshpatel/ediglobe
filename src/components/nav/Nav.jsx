@@ -7,6 +7,11 @@ import logo from "../../assets/EdiGlobe Website-01.png"
 
 const Nav = () => {
 
+  // const logoStyle = {
+  //   fontFamily: 'Typo Round Regular Demo, sans-serif',
+  //   textDecoration: 'none', // Remove underlining for links
+  // };
+
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () =>{
      if(window.scrollY >= 100){
@@ -37,8 +42,8 @@ const Nav = () => {
     <section className="navbar-bg">
       <nav className={`navbar navbar-expand-lg navbar-light ${colorChange ? 'navbar colorChange' : 'navbar'}`}>
         <div className="container">
-            
-            <img src={logo} alt="course_pic" />
+          
+          <img src={logo} alt="course_pic" />
             <button
             className="navbar-toggler"
             type="button"

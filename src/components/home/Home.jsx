@@ -16,8 +16,8 @@ const Home = () => {
     One Step Ahead This Season
     </h2>
     <div>
-    <a href="#" className="primary-btn2 mb-3 mb-sm-0">learn more</a>
-    <a href="#" className="primary-btn ml-sm-3 ml-0">see course</a>
+    <a href="#" className="primary-btn2 mb-3 mb-sm-0">Explore Courses</a>
+    
     </div>
     </div>
     </div>

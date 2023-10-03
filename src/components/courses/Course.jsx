@@ -1,7 +1,7 @@
 import React from 'react'
 import './course.css'
 import C1 from '../../assets/courses/c1.jpg'
-import C2 from '../../assets/courses/c2.jpg'
+import C2 from '../../assets/courses/c4.png'
 import C3 from '../../assets/courses/c3.jpg'
 import Auth1 from '../../assets/courses/author1.png'
 import Auth2 from '../../assets/courses/author2.png'

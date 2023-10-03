@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Rubik:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/typo-round');
 
 .logo a{
     text-decoration: none;
@@ -40,7 +41,7 @@
 }
 
 .navbar{
-    max-height: 80px;
+    max-height: 4.3rem;
 }
 
 .navbar li{
@@ -62,8 +63,8 @@
 
 .btn-outline-success:hover{
     border: 1px solid var(--bgcolor);
-    background: var(--logo-color);
-    color: var(--text-color);
+    background: var(--text-color);
+    color: var(--bgcolor);
 }
 .navbar.colorChange{
     transition: all 0.5s ease 0s;
@@ -85,8 +86,8 @@
         left: 0;
         top: 0;
         padding: 10%;
-        opacity: 0; /* Start with opacity at 0 */
-        overflow: hidden; /* Hide overflow content */
+        opacity: 0; 
+        overflow: hidden; 
         transition: opacity .5s ease-in, height 0.1s ease; 
         animation-delay: 0.8s;
         animation-name: fadeIn;
@@ -100,7 +101,7 @@
         display: flex;
         justify-content: center; 
         align-items: center; 
-        margin-top: 25%;
+        margin-top: 23%;
         
     }
     .navbar li{
@@ -129,13 +130,6 @@
     
     }
 }
-
-/* 
-#55e3ea
-#04bbdf
-#016ca5
-#1e2a5a 
-*/
 
 @media (min-width: 997px) {
     .show{
