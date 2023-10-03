@@ -59,10 +59,10 @@ a{
     text-decoration: none;
 }
 
-.section_gap {
+/* .section_gap {
     padding: 130px 0; 
 
-}
+} */
     @media (max-width: 991px) {
       .section_gap {
         padding: 70px 0; 

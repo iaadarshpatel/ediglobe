@@ -9,20 +9,20 @@ const data = [
   {
     id: 1,
     logo: <TbSchool/>,
-    feature_name: "Scholarship Facility",
-    feature_detail: "One make creepeth, man bearing theira firmament won't great heaven"
+    feature_name: "Multifaceted courses",
+    feature_detail: "Discover customized courses for your interests and career goals, perfect for students and professionals."
   },
   {
     id: 2,
     logo: <GiBookmarklet/>,
-    feature_name: "Sell Online Course",
-    feature_detail: "One make creepeth, man bearing theira firmament won't great heaven"
+    feature_name: "Internship Opportunities",
+    feature_detail: "Access internships for hands-on experience at top companies, boosting your career journey."
   },
   {
     id: 3,
     logo: <TbCertificate/>,
-    feature_name: "Global Certification",
-    feature_detail: "One make creepeth, man bearing theira firmament won't great heaven"
+    feature_name: "Certificate",
+    feature_detail: "To offer flexibility, skill advancement, and expertise demonstration for career growth."
   }
 ]
 

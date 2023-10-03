@@ -1,37 +1,51 @@
 import React from 'react'
+import CountUp from 'react-countup';
 import './registration.css';
 
 const Registration = () => {
   return (
     <section id='registration' className='section_gap registration_area'>
     <div className="container">
-    <div className="row align-items-center">
+    <div className="row align-items-center" data-aos="fade-up">
     <div className="col-lg-7">
     <div className="row clock_sec clockdiv" id="clockdiv">
     <div className="col-lg-12">
     <h1 className="mb-3">Register Now</h1>
     <p>
-    There is a moment in the life of any aspiring astronomer that
-    it is time to buy that first telescope. It’s exciting to think
-    about setting up your own viewing station.
+    Embark on a transformative learning experience with us. Join our platform to access a universe of educational possibilities. Register now to empower your future through knowledge and innovation.
     </p>
     </div>
-    <div className="col clockinner1 clockinner">
-    <h1 className="days">150</h1>
-    <span className="smalltext">Days</span>
+    <div className="col clockinner1 clockinner">  
+      <h1>
+        <CountUp className="days" end={500} duration={8} enableScrollSpy={false} />
+      </h1>
+      <br />
+    <span className="smalltext">Happy Customers</span>
     </div>
+    
+        <div className="col clockinner clockinner1">
+        <h1>
+          <CountUp className="days" end={100} duration={8} enableScrollSpy={false}/>+
+        </h1>
+        <span className="smalltext">Industry based Projects</span>
+        </div>
+
     <div className="col clockinner clockinner1">
-    <h1 className="hours">23</h1>
-    <span className="smalltext">Hours</span>
+    <h1>
+      <CountUp className="days" end={5} duration={8} enableScrollSpy={false}/>K
+    </h1>
+    <br />
+    <span className="smalltext">Registered Users</span>
     </div>
+
     <div className="col clockinner clockinner1">
-    <h1 className="minutes">47</h1>
-    <span className="smalltext">Mins</span>
+    <h1>
+      <CountUp className="days" end={30} duration={8} enableScrollSpy={false}/>
+    </h1>
+    <br />
+    <span className="smalltext">Courses</span>
     </div>
-    <div className="col clockinner clockinner1">
-    <h1 className="seconds">59</h1>
-    <span className="smalltext">Secs</span>
-    </div>
+
     </div>
     </div>
     <div className="col-lg-4 offset-lg-1">

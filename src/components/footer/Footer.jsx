@@ -21,7 +21,7 @@ const Footer = () => {
     <div className="col-lg-4 col-md-6 single-footer-widget">
     <h4>About US</h4>
     <li className='about-details'>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit neque magnam quasi quia maxime libero qui, incidunt minima autem officia quis at adipisci, ab numquam porro rem. At quos voluptas maiores. ajha askjasaks asjka askj?</p>
+    <p>Welcome to Ediglobe Elearning Platform, your gateway to a world of knowledge and opportunities. We are more than just an elearning platform; we are your partner in personal and professional growth.</p>
     </li>
 
     <li className='about-details'>

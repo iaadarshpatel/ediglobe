@@ -5,11 +5,42 @@ import t2 from '../../assets/trainer/t2.jpg';
 import t3 from '../../assets/trainer/t3.jpg';
 import t4 from '../../assets/trainer/t4.jpg';
 
+
+const data = [
+  {
+    id: 1,
+    Image: t1,
+    mentorname: "Sakshi Bansal",
+    designation: "Sr. Software Engi.",
+    aboutmentor: "Replenish man have thing gathering lights yielding ",
+  },
+  {
+    id: 2,
+    Image: t2,
+    mentorname: "Harshita Saxena",
+    designation: "Sr. Software Engi.",
+    aboutmentor: "Replenish man have thing gathering lights yielding ",
+  },
+  {
+    id: 3,
+    Image: t3,
+    mentorname: "Dewasis Mukhia",
+    designation: "Sr. Software Engi.",
+    aboutmentor: "Replenish man have thing gathering lights yielding ",
+  },
+  {
+    id: 4,
+    Image: t4,
+    mentorname: "Mili Biswas",
+    designation: "Sr. Software Engi.",
+    aboutmentor: "Replenish man have thing gathering lights yielding ",
+  }]
+
 const Expert = () => {
   return (
     <section className="trainer_area section_gap_top">
     <div className="container">
-      <div className="row justify-content-center">
+      <div className="row justify-content-center" data-aos="fade-up">
         <div className="col-lg-5">
           <div className="main_title">
           <h2 className="mb-3">Our Expert Trainers</h2>
@@ -19,15 +50,18 @@ const Expert = () => {
       </div>
 
     <div className="row justify-content-center d-flex align-items-center">
-      <div className="col-lg-3 col-md-6 col-sm-12 single-trainer">
-        <div className="thumb d-flex justify-content-sm-center">
-          <img className="img-fluid" src={t1} alt="" />
-        </div>
+    {
+      data.map(({id, Image, mentorname, designation, aboutmentor}) => {
+        return (
+        <div className="col-lg-3 col-md-6 col-sm-12 single-trainer" data-aos="fade-up">
+          <div className="thumb d-flex justify-content-sm-center">
+            <img className="img-fluid" src={Image} alt="" />
+          </div>
         <div className="meta-text text-sm-center">
-            <h4>Mated Nithan</h4>
-            <p className="designation">Sr. web designer</p>
+            <h4>{mentorname}</h4>
+            <p className="designation">{designation}</p>
           <div className="mb-4">
-            <p>If you are looking at blank cassettes on the web, you may be very confused at the.</p>
+            <p>{aboutmentor}</p>
         </div>
         <div className="align-items-center justify-content-center d-flex">
             <a href=""><i className="ti-facebook"></i></a>
@@ -37,70 +71,8 @@ const Expert = () => {
         </div>
       </div>
     </div>
+    )})};  
 
-    <div className="col-lg-3 col-md-6 col-sm-12 single-trainer">
-    <div className="thumb d-flex justify-content-sm-center">
-    <img className="img-fluid" src={t2} alt="" />
-    </div>
-    <div className="meta-text text-sm-center">
-    <h4>David Cameron</h4>
-    <p className="designation">Sr. web designer</p>
-    <div className="mb-4">
-    <p>
-    If you are looking at blank cassettes on the web, you may be
-    very confused at the.
-    </p>
-    </div>
-    <div className="align-items-center justify-content-center d-flex">
-    <a href=""><i className="ti-facebook"></i></a>
-    <a href=""><i className="ti-twitter"></i></a>
-    <a href=""><i className="ti-linkedin"></i></a>
-    <a href=""><i className="ti-pinterest"></i></a>
-    </div>
-    </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12 single-trainer">
-    <div className="thumb d-flex justify-content-sm-center">
-    <img className="img-fluid" src={t3} alt="" />
-    </div>
-    <div className="meta-text text-sm-center">
-    <h4>Jain Redmel</h4>
-    <p className="designation">Sr. Faculty Data Science</p>
-    <div className="mb-4">
-    <p>
-    If you are looking at blank cassettes on the web, you may be
-    very confused at the.
-    </p>
-    </div>
-    <div className="align-items-center justify-content-center d-flex">
-    <a href=""><i className="ti-facebook"></i></a>
-    <a href=""><i className="ti-twitter"></i></a>
-    <a href=""><i className="ti-linkedin"></i></a>
-    <a href=""><i className="ti-pinterest"></i></a>
-    </div>
-    </div>
-    </div>
-    <div className="col-lg-3 col-md-6 col-sm-12 single-trainer">
-    <div className="thumb d-flex justify-content-sm-center">
-    <img className="img-fluid" src={t4} alt="" />
-    </div>
-    <div className="meta-text text-sm-center">
-    <h4>Nathan Macken</h4>
-    <p className="designation">Sr. web designer</p>
-    <div className="mb-4">
-    <p>
-    If you are looking at blank cassettes on the web, you may be
-    very confused at the.
-    </p>
-    </div>
-    <div className="align-items-center justify-content-center d-flex">
-    <a href=""><i className="ti-facebook"></i></a>
-    <a href=""><i className="ti-twitter"></i></a>
-    <a href=""><i className="ti-linkedin"></i></a>
-    <a href=""><i className="ti-pinterest"></i></a>
-    </div>
-    </div>
-    </div>
     </div>
     </div>
     </section>

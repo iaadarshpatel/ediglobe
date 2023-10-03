@@ -1,8 +1,8 @@
 import React from 'react'
 import './course.css'
-import C1 from '../../assets/courses/c1.jpg'
-import C2 from '../../assets/courses/c4.png'
-import C3 from '../../assets/courses/c3.jpg'
+import C1 from '../../assets/courses/c1.png'
+import C2 from '../../assets/courses/c7.jpg'
+import C3 from '../../assets/courses/c2.png'
 import Auth1 from '../../assets/courses/author1.png'
 import Auth2 from '../../assets/courses/author2.png'
 import Auth3 from '../../assets/courses/author3.png'
@@ -14,9 +14,9 @@ const data = [
     id: 1,
     Image: C1,
     price: "$50",
-    course_tag_name: "DESIGN",
-    course_name: "Marketing",
-    course_detail: "One make creepeth man bearing their one firmament won't fowl meat over sea",
+    course_tag_name: "Development",
+    course_name: "App Development",
+    course_detail: "App development is crafting mobile applications for devices like smartphones and tablets, encompassing design, coding, and testing for a seamless user experience.",
     auth_image: Auth1,
     auth_name: "David",
     user_icon: <FiUser/>,
@@ -27,8 +27,8 @@ const data = [
     Image: C2,
     price: "$50",
     course_tag_name: "SALES",
-    course_name: "Computer",
-    course_detail: "One make creepeth man bearing their one firmament won't fowl meat over sea",
+    course_name: "Digital Marketing",
+    course_detail: "Digital marketing is an exciting field that focuses on promoting products and services through online channels. Explore digital marketing course with us.",
     auth_image: Auth2,
     auth_name: "Aadarsh",
     user_icon: <FiUser/>,
@@ -38,9 +38,9 @@ const data = [
       id: 3,
       Image: C3,
       price: "$50",
-      course_tag_name: "DESIGN",
-      course_name: "Development",
-      course_detail: "One make creepeth man bearing their one firmament won't fowl meat over sea",
+      course_tag_name: "Security",
+      course_name: "Cyber Security",
+      course_detail: "Cybersecurity is about guarding digital systems and data, like a digital superhero, ensuring information stays secure. Learn how to protect your data with us.",
       auth_image: Auth3,
       auth_name: "Cameron",
       user_icon: <FiUser/>,
