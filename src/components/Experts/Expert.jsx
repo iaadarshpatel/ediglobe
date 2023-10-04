@@ -53,7 +53,7 @@ const Expert = () => {
     {
       data.map(({id, Image, mentorname, designation, aboutmentor}) => {
         return (
-        <div className="col-lg-3 col-md-6 col-sm-12 single-trainer" data-aos="fade-up">
+        <div className="col-lg-3 col-md-6 col-sm-12 single-trainer" data-aos="fade-up" key={id}>
           <div className="thumb d-flex justify-content-sm-center">
             <img className="img-fluid" src={Image} alt="" />
           </div>
