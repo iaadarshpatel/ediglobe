@@ -1,5 +1,4 @@
-
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
       .trainer_area {
     padding-bottom: 40px; } 
   }
@@ -40,8 +39,8 @@
   }
 
 .single-trainer .meta-text a {
-    font-size: 14px;
-    margin: 0 10px;
+    font-size: 15px;
+    margin: 0 14px;
     color: #cccccc;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -50,7 +49,7 @@
       }
 
 .single-trainer .meta-text a:hover {
-    color: #fdc632; 
+    color: var(--text-color); 
         }
 
 .single-trainer:hover .meta-text {

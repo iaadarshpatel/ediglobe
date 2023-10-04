@@ -5,7 +5,6 @@ import {FaTwitter} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 import {FiTwitter} from 'react-icons/fi'
 import {FaPhoneAlt} from 'react-icons/fa'
-// import {FaHome} from 'react-icons/fa'
 import {BiLogoGmail} from 'react-icons/bi'
 
 const Footer = () => {

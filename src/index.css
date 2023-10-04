@@ -59,6 +59,12 @@ a{
     text-decoration: none;
 }
 
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important
+}
+
 /* .section_gap {
     padding: 130px 0; 
 

@@ -6,10 +6,6 @@
     background: #002347; 
 }
 
-.align-items-center {
-    -ms-flex-align: center !important;
-    align-items: center !important
-}
 
   .clock_sec {
     color: #fff; 

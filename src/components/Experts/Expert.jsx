@@ -4,6 +4,11 @@ import t1 from '../../assets/trainer/t1.jpg';
 import t2 from '../../assets/trainer/t2.jpg';
 import t3 from '../../assets/trainer/t3.jpg';
 import t4 from '../../assets/trainer/t4.jpg';
+import {FaFacebookF} from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
+import {FiTwitter} from 'react-icons/fi'
+import {FaPhoneAlt} from 'react-icons/fa'
 
 
 const data = [
@@ -65,14 +70,14 @@ const Expert = () => {
         </div>
 
         <div className="align-items-center justify-content-center d-flex">
-            <a href=""><i className="ti-facebook"></i></a>
-            <a href=""><i className="ti-twitter"></i></a>
-            <a href=""><i className="ti-linkedin"></i></a>
-            <a href=""><i className="ti-pinterest"></i></a>
+          <a href="#"><FiTwitter/></a>
+          <a href="#"><FaFacebookF/></a>
+          <a href="#"><FaTwitter/></a>
+          <a href="#"><FaLinkedin/></a>
         </div>
       </div>
     </div>
-    )})};  
+    )})}
 
     </div>
     </div>
