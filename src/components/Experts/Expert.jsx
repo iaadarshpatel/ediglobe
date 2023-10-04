@@ -63,6 +63,7 @@ const Expert = () => {
           <div className="mb-4">
             <p>{aboutmentor}</p>
         </div>
+
         <div className="align-items-center justify-content-center d-flex">
             <a href=""><i className="ti-facebook"></i></a>
             <a href=""><i className="ti-twitter"></i></a>
