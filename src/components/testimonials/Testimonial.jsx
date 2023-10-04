@@ -2,6 +2,7 @@ import React from 'react'
 import t1 from "../../assets/testimonials/t1.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './testimonial.css'
+import '@fortawesome/fontawesome-free/css/all.css'; // Import FontAwesome CSS
 
 // Import Swiper styles
 import 'swiper/css';
@@ -15,26 +16,20 @@ import {Autoplay, Pagination } from 'swiper';
 const data = [
   {
     id: 1,
-    test_name: 'Aadarsh',
-    feedback: "The ML internship was a game-changer! It boosted my skills and prepared me for the future!",
+    alum_name: 'Aadarsh',
+    feedback: "The machine learning internship program was an absolute game-changer! I had the opportunity to work on cutting-edge projects and collaborate with brilliant minds in the field. It was an invaluable experience that boosted my skills and knowledge in machine learning. I can't thank the program enough for preparing me for my future endeavours!",
     Image: t1
   },
   {
     id: 2,
-    test_name: 'Rahul',
-    feedback: "The web development internship was incredible; I learned a lot and worked on cool projects. It's a perfect stepping stone for my future.",
+    alum_name: 'Rahul',
+    feedback: "That web development internship program was absolutely incredible! I learned so much and had the chance to work on some really cool projects. It was the perfect stepping stone for my future in the field. I can't wait to see where this new adventure takes me! Good luck and here's to an exciting future ahead! ",
     Image: t1
   },
   {
     id: 3,
-    test_name: 'Avinash',
-    feedback: "The digital marketing team was amazing, offering invaluable guidance and support throughout the internship. Their expertise was truly appreciated.",
-    Image: t1
-  },
-  {
-    id: 4,
-    test_name: 'Aadarsh',
-    feedback: "Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto.Saw from",
+    alum_name: 'Avinash',
+    feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
     Image: t1
   },
 ]
@@ -52,7 +47,7 @@ const Testimonial = () => {
           </div>
         </div>
     <Swiper
-    slidesPerView={2}
+    slidesPerView={1}
         spaceBetween={50}
         autoplay={{
           delay: 2000,
@@ -64,24 +59,18 @@ const Testimonial = () => {
         className="mySwiper"
   >
   {
-    data.map(({id, test_name, feedback, Image}) => {
+    data.map(({id, alum_name, feedback, Image}) => {
       return (
     <SwiperSlide>
-          <div className="row" key={id}>
-            <div className="testi_item">
-              <div className="row">
-                <div className="col-lg-4 col-md-6">
-                  <img src={Image} alt="" />
-                </div>
-                  <div className="col-lg-8">
-                    <div className="testi_text">
-                      <h4>{test_name}</h4>
-                      <p>{feedback}</p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+    <div className="site-section bg-left-half mb-5">
+      <div className="container">      
+        <div className="media-29101">
+          <img src={Image} alt="Image" className="img-fluid"/>
+              <h4><a href="#">{alum_name}</a></h4>
+                <p className='double-qote'>{feedback}</p>
+        </div>
+      </div>
+    </div>
     </SwiperSlide>
     )})
   }

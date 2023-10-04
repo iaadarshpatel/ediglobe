@@ -126,6 +126,8 @@
 }
 
 .follows a{
+    vertical-align: middle;
+    text-decoration: none;
     color: var(--text-color);
 }
 

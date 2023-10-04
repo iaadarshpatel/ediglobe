@@ -1,14 +1,13 @@
 import React from 'react'
 import './expert.css';
-import t1 from '../../assets/trainer/t1.jpg';
-import t2 from '../../assets/trainer/t2.jpg';
-import t3 from '../../assets/trainer/t3.jpg';
-import t4 from '../../assets/trainer/t4.jpg';
+import t1 from '../../assets/trainer/Saakshi.png';
+import t2 from '../../assets/trainer/Harshita.png';
+import t3 from '../../assets/trainer/Dewasis.png';
+import t4 from '../../assets/trainer/Mili.png';
 import {FaFacebookF} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 import {FiTwitter} from 'react-icons/fi'
-import {FaPhoneAlt} from 'react-icons/fa'
 
 
 const data = [
@@ -23,21 +22,21 @@ const data = [
     id: 2,
     Image: t2,
     mentorname: "Harshita Saxena",
-    designation: "Sr. Software Engi.",
+    designation: "Data Analyst",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   },
   {
     id: 3,
     Image: t3,
     mentorname: "Dewasis Mukhia",
-    designation: "Sr. Software Engi.",
+    designation: "Software Developer",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   },
   {
     id: 4,
     Image: t4,
     mentorname: "Mili Biswas",
-    designation: "Sr. Software Engi.",
+    designation: "Backend Developer",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   }]
 
