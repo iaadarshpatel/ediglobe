@@ -49,7 +49,7 @@ const Testimonial = () => {
           </div>
         </div>
     <Swiper
-    slidesPerView={1}
+    slidesPerView={3}
         spaceBetween={50}
         autoplay={{
           delay: 2000,
