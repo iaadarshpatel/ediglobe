@@ -3,7 +3,7 @@ import './registration.css';
 
 const Button = () => {
   return (
-    <div className="col-lg-12 text-center">
+    <div className="text-center">
         <button className="primary-btn">Submit</button>
     </div>
   )

@@ -3,13 +3,13 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
-import {FiTwitter} from 'react-icons/fi'
-import {FaPhoneAlt} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
+import {BiSolidPhoneCall} from 'react-icons/bi'
 import {BiLogoGmail} from 'react-icons/bi'
 
 const Footer = () => {
   const color = {
-    color: "#fdc632"
+    color: "#55e3ea"
   }
 
   return (
@@ -25,7 +25,7 @@ const Footer = () => {
 
     <li className='about-details'>
       <span>
-        <FaPhoneAlt style={color} className='phone-icon'/><a href="#">+1291 3912 329</a>
+        <BiSolidPhoneCall style={color} className='phone-icon'/><a href="#">+1291 3912 329</a>
       </span>
     </li>
     <li className='about-details'>
@@ -83,10 +83,10 @@ const Footer = () => {
             <p class="col-lg-8 col-sm-12 footer-text m-0 text-white"> Copyright &copy; All rights reserved </p>
         <div className="row footer-bottom d-flex">
           <div className="col-lg-4 col-sm-12 footer-social">
-            <a href="#"><FiTwitter/></a>
-            <a href="#"><FaFacebookF/></a>
-            <a href="#"><FaTwitter/></a>
-            <a href="#"><FaLinkedin/></a>
+            <a href="#" className='twitter'><FaTwitter/></a>
+            <a href="#" className='facebook'><FaFacebookF/></a>
+            <a href="#" className='instagram'><FaInstagram/></a>
+            <a href="#" className='linkedin'><FaLinkedin/></a>
           </div>
         </div>
     </div>
