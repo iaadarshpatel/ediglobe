@@ -128,6 +128,7 @@
         list-style: none; 
       }
         .footer-area .single-footer-widget ul li a {
+          text-decoration: none;
           -webkit-transition: all 0.3s ease 0s;
           -moz-transition: all 0.3s ease 0s;
           -o-transition: all 0.3s ease 0s;

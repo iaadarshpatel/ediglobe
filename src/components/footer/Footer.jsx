@@ -39,20 +39,23 @@ const Footer = () => {
     <div className="col-lg-2 col-md-6 single-footer-widget">
     <h4>Features</h4>
     <ul>
-    <li><a href="#">Jobs</a></li>
-    <li><a href="#">Brand Assets</a></li>
-    <li><a href="#">Investor Relations</a></li>
-    <li><a href="#">Terms of Service</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Terms and conditions </a></li>
+    <li><a href="#">Privacy policy</a></li>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Blogs</a></li>
     </ul>
     </div>
 
     <div className="col-lg-2 col-md-6 single-footer-widget">
     <h4>Resources</h4>
     <ul>
-    <li><a href="#">Guides</a></li>
-    <li><a href="#">Research</a></li>
-    <li><a href="#">Experts</a></li>
-    <li><a href="#">Agencies</a></li>
+    <li><a href="#">Career</a></li>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">Check your certificate </a></li>
+    <li><a href="#">Workshop/Webinar</a></li>
+    <li><a href="#">Campus ambassador</a></li>
+    
     </ul>
     </div>
     <div className="col-lg-4 col-md-6 single-footer-widget">
