@@ -56,15 +56,7 @@
     padding: 30px 20px;
   }
   .double-qote::before {
-    color: var(--text-color) !important;
-    content: "\f10e";
-    font-family: fontawesome;
-    font-size: 48px;
-    left: 1.5rem;
-    line-height: 1;
-    opacity: 0.5;
-    position: fixed;
-    bottom: 110px;
+    display: none;
 }
 }
 
