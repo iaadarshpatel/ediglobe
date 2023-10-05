@@ -75,11 +75,8 @@ const Course = () => {
             </h4>
             <p>{course_detail}</p>
 
-            <div className="course_meta">
-              <div className="auth_meta">
-                <img src={auth_image} alt=""/>
-                <span className='auth_name'>{auth_name}</span>
-              </div>
+            <div className="course_meta"> 
+              <button className="btn btn-outline-success" type="submit" >View Details</button>
               <div className='follows'>
                 <span className="meta_info">
                   <a href="/"><i>{user_icon}</i>25</a>
