@@ -2,8 +2,8 @@ import React from 'react'
 import './expert.css';
 import t1 from '../../assets/trainer/Nishi.jpeg';
 import t2 from '../../assets/trainer/Aadarsh.png';
-import t3 from '../../assets/trainer/Dewasis.png';
-import t4 from '../../assets/trainer/Mili.png';
+import t3 from '../../assets/trainer/Avinash.jpeg';
+import t4 from '../../assets/trainer/Shabnoor.jpeg';
 import {FaFacebookF} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
@@ -28,14 +28,14 @@ const data = [
   {
     id: 3,
     Image: t3,
-    mentorname: "Dewasis Mukhia",
-    designation: "Software Developer",
+    mentorname: "Avinash Kumar",
+    designation: "Sr. Software Developer",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   },
   {
     id: 4,
     Image: t4,
-    mentorname: "Mili Biswas",
+    mentorname: "Shabnoor",
     designation: "Backend Developer",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   }]
