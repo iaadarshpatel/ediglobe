@@ -85,6 +85,11 @@
     bottom: 110px;
 }
 }
+@media screen  and (max-width: 963px) {
+  .double-qote::before {
+    display: none;
+  }
+}
 
 .testi_item .testi_text h4 {
   font-size: 20px;
