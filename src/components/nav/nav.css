@@ -119,41 +119,17 @@
         align-items: center; 
         margin-top: 5%;
     }
-    .btn-outline-success{
-        font-size: 1.5rem;
-    }
 }
 
 @media (min-width: 997px) {
     #logo{
         display: none;
-    
     }
-}
-
-@media (min-width: 997px) {
     .show{
         display: none;
     }
 }
 
 
-
-/* =============== MEDIA QUERIES (LARGE DEVICES) ==============*/
-
-
-@media screen and (min-width: 990px) and (max-width: 1324px) {
-   
-}
-
-/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==============*/
-@media screen and (max-width: 500px){
-     
-}
-
-/* =============== MEDIA QUERIES (SMALL DEVICES) ==============*/
-@media screen and (max-width: 400px){
-
-}
 
 
