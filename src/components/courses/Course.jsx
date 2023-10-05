@@ -61,13 +61,14 @@ const Course = () => {
         <div className="courses_container"  data-aos="fade-up" data-aos-offset="0">
 
         {
-        data.map(({id, Image, price, course_tag_name, course_name, course_detail, auth_image, auth_name, user_icon, like_icon}) => {
+        data.map(({id, Image, course_tag_name, course_name, course_detail, auth_image, auth_name, user_icon, like_icon}) => {
           return (
         <div className="single_course" key={id}>
           <div className="course_head">
             <img src={Image} alt="course_pic" />
           </div>
-          <div className="course_content">        
+          <div className="course_content">
+        
             <span className="course_tag">{course_tag_name}</span>
             <h4 className="course_name">
               <a href="http://">{course_name}</a>

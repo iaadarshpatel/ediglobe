@@ -1,7 +1,7 @@
 import React from 'react'
 import './expert.css';
-import t1 from '../../assets/trainer/Saakshi.png';
-import t2 from '../../assets/trainer/Harshita.png';
+import t1 from '../../assets/trainer/Nishi.jpeg';
+import t2 from '../../assets/trainer/Aadarsh.png';
 import t3 from '../../assets/trainer/Dewasis.png';
 import t4 from '../../assets/trainer/Mili.png';
 import {FaFacebookF} from 'react-icons/fa'
@@ -14,14 +14,14 @@ const data = [
   {
     id: 1,
     Image: t1,
-    mentorname: "Sakshi Bansal",
+    mentorname: "Nishi Poddar",
     designation: "Sr. Software Engi.",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   },
   {
     id: 2,
     Image: t2,
-    mentorname: "Harshita Saxena",
+    mentorname: "Aadarsh Patel",
     designation: "Data Analyst",
     aboutmentor: "Replenish man have thing gathering lights yielding ",
   },
