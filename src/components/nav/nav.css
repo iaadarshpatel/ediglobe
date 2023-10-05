@@ -76,6 +76,9 @@
         font-weight: bold;
 }
 
+/* .hide {
+    display: none;
+} */
 
 @media (max-width: 997px) {
     .show{
@@ -88,15 +91,18 @@
         padding: 10%;
         opacity: 0; 
         overflow: hidden; 
-        transition: opacity .5s ease-in, height 0.1s ease; 
+        transition: visibility 0.5s, opacity 0.5s ease-in, height 0.1s ease; 
         animation-delay: 0.8s;
         animation-name: fadeIn;
     }
     /* Styles for the mobile menu when open */
-    .show.open {
+    .open {
         opacity: 1; /* Fade in the menu */
-        height: 100vh; /* Slide down to full height */
+        height: 100vh;
     }
+    /* .close {
+        display:none;
+    } */
     .navbar-nav{
         display: flex;
         justify-content: center; 
@@ -125,7 +131,7 @@
     #logo{
         display: none;
     }
-    .show{
+    .show {
         display: none;
     }
 }

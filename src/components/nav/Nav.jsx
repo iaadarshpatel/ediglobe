@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useEffect, useState} from 'react'
 import './nav.css'
 import { LiaTimesSolid } from 'react-icons/lia';
 import { FaBarsStaggered } from 'react-icons/fa6';
@@ -23,19 +23,30 @@ const Nav = () => {
     };
     window.addEventListener('scroll', changeNavbarColor);
 
-  const [show, setShow] = useState(false);
+    const [show, setShow] = useState(false);
 
   const toggleMenu = () => {
-        setShow(!show);
+      setShow(!show);
     };
 
-    const mobileMenuClass = show ? 'show open' : 'show';
+    let mobileMenuClass = show ? 'show open' : 'show';
 
   // Active Navbar on Click
   const [activeNav, setActiveNav] = useState('#')
   const Adarsh = () =>{
     setActiveNav('#');
   }
+  // useEffect(() => {
+
+  //   function handleWindowResize() {
+  //     const {innerWidth} = window;
+  //     if(innerWidth < 997 && !show) {
+  //     }
+  //   }
+
+  //   window.addEventListener('resize', handleWindowResize);
+  // }, []);
+
 
   return (
     <>

@@ -68,7 +68,7 @@ const Course = () => {
             <img src={Image} alt="course_pic" />
           </div>
           <div className="course_content">
-            <span className="price">{price}</span>
+            
             <span className="course_tag">{course_tag_name}</span>
             <h4 className="course_name">
               <a href="http://">{course_name}</a>
