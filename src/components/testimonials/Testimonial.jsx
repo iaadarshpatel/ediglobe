@@ -1,5 +1,7 @@
 import React from 'react'
-import t1 from "../../assets/testimonials/t1.jpg"
+import t1 from '../../assets/trainer/Saakshi.png';
+import t2 from '../../assets/trainer/Harshita.png';
+import t3 from '../../assets/trainer/Dewasis.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './testimonial.css'
 import '@fortawesome/fontawesome-free/css/all.css'; // Import FontAwesome CSS
@@ -24,13 +26,13 @@ const data = [
     id: 2,
     alum_name: 'Rahul',
     feedback: "That web development internship program was absolutely incredible! I learned so much and had the chance to work on some really cool projects. It was the perfect stepping stone for my future in the field. I can't wait to see where this new adventure takes me! Good luck and here's to an exciting future ahead! ",
-    Image: t1
+    Image: t2
   },
   {
     id: 3,
     alum_name: 'Avinash',
     feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
-    Image: t1
+    Image: t3
   },
 ]
 
@@ -62,7 +64,7 @@ const Testimonial = () => {
     data.map(({id, alum_name, feedback, Image}) => {
       return (
     <SwiperSlide>
-    <div className="site-section bg-left-half mb-5">
+    <div className="site-section bg-left-half mb-5" key={id}>
       <div className="container">      
         <div className="media-29101">
           <img src={Image} alt="Image" className="img-fluid"/>
