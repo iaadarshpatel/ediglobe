@@ -30,7 +30,19 @@ const data = [
   },
   {
     id: 3,
-    alum_name: 'Avinash',
+    alum_name: 'Aayushi',
+    feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
+    Image: t3
+  },
+  {
+    id: 4,
+    alum_name: 'Sohal',
+    feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
+    Image: t3
+  },
+  {
+    id: 5,
+    alum_name: 'Ayush',
     feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
     Image: t3
   },
