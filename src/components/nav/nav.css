@@ -100,9 +100,6 @@
         opacity: 1; /* Fade in the menu */
         height: 100vh;
     }
-    /* .close {
-        display:none;
-    } */
     .navbar-nav{
         display: flex;
         justify-content: center; 

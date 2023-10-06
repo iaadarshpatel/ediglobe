@@ -7,12 +7,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2.5rem;
 }
-
-.single_course{
-    background: #f9f9ff;
-}
-
 .single_course {
+    background: #f9f9ff;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);

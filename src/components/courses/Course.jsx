@@ -8,6 +8,7 @@ import Auth2 from '../../assets/courses/author2.png'
 import Auth3 from '../../assets/courses/author3.png'
 import {FiUser} from 'react-icons/fi'
 import {FiHeart} from 'react-icons/fi'
+import {watermark} from '../../assets/EdiGlobe Website-01.png'
 
 const data = [
   {
