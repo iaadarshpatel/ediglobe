@@ -33,6 +33,10 @@
   text-decoration: none;
 }
 
+.media-29101 p{
+  font-size: 1rem;
+}
+
 
 @media (max-width: 991px) {
   .testi_item {
@@ -99,7 +103,6 @@
 
 .testi_item .testi_text p {
   margin-bottom: 0px;
-
 }
 
 .testi_item:hover {
