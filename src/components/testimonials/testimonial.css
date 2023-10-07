@@ -20,12 +20,14 @@
 
 }
 
-.media-29101 img {
-  margin-bottom: 20px;
-  border-radius: 50%;
-  width: 15% !important;
-  margin: 0 auto 20px auto;
-}
+
+@media  screen and (max-width: 180px) {
+  .media-29101 img {
+    margin-bottom: 20px;
+    width: 30%;
+    margin: 0 auto 20px auto;
+  }
+  }
 
 .media-29101 h4 {
   font-size: 20px;
@@ -74,6 +76,7 @@
 }
 
 @media (max-width: 991px) {
+
   .testi_item .testi_text {
     margin-top: 50px;
   }
