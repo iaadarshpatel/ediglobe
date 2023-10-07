@@ -2,6 +2,8 @@ import React from 'react'
 import t1 from '../../assets/trainer/Saakshi.png';
 import t2 from '../../assets/trainer/Harshita.png';
 import t3 from '../../assets/trainer/Dewasis.png';
+import t4 from '../../assets/trainer/Durga.png';
+import t5 from '../../assets/trainer/Mili.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './testimonial.css'
 import '@fortawesome/fontawesome-free/css/all.css'; // Import FontAwesome CSS
@@ -18,33 +20,33 @@ import {Autoplay, Pagination } from 'swiper';
 const data = [
   {
     id: 1,
-    alum_name: 'Aadarsh',
+    alum_name: 'Sakshi',
     feedback: "The machine learning internship program was an absolute game-changer! I had the opportunity to work on cutting-edge projects and collaborate with brilliant minds in the field. It was an invaluable experience that boosted my skills and knowledge in machine learning. I can't thank the program enough for preparing me for my future endeavours!",
     Image: t1
   },
   {
     id: 2,
-    alum_name: 'Rahul',
+    alum_name: 'Harshita',
     feedback: "That web development internship program was absolutely incredible! I learned so much and had the chance to work on some really cool projects. It was the perfect stepping stone for my future in the field. I can't wait to see where this new adventure takes me! Good luck and here's to an exciting future ahead! ",
     Image: t2
   },
   {
     id: 3,
-    alum_name: 'Aayushi',
+    alum_name: 'Dewasis',
     feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
     Image: t3
   },
   {
     id: 4,
-    alum_name: 'Sohal',
+    alum_name: 'Durga',
     feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
-    Image: t3
+    Image: t4
   },
   {
     id: 5,
-    alum_name: 'Ayush',
+    alum_name: 'Mili',
     feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
-    Image: t3
+    Image: t5
   },
 ]
 
