@@ -57,7 +57,7 @@ const Testimonial = () => {
       <div className="row justify-content-center" data-aos="fade-up">
           <div className="col-lg-5">
             <div className="main_title">
-                <h2 className="mb-3">Client say about me</h2>
+                <h2 className="mb-3">Students say about me</h2>
                 <p>Replenish man have thing gathering lights yielding shall you</p>
             </div>
           </div>

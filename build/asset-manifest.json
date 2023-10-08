@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.50dc371b.css",
-    "main.js": "/static/js/main.b9e8639c.js",
-    "static/media/home-banner2.jpg": "/static/media/home-banner2.6fd1153136a3f2251e63.jpg",
+    "main.css": "/static/css/main.6f49789e.css",
+    "main.js": "/static/js/main.c191178a.js",
     "static/media/c7.jpg": "/static/media/c7.0d2ecbe078d93252ce85.jpg",
     "static/media/c1.png": "/static/media/c1.196ef9b7b901fe39c070.png",
+    "static/media/home-banner-3.png": "/static/media/home-banner-3.df73dbb4d9883d2c3f2a.png",
     "static/media/c2.png": "/static/media/c2.9ab22d06b8adf15af6c6.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/Shabnoor.jpeg": "/static/media/Shabnoor.17674ef143b35cf4d066.jpeg",
+    "static/media/Nishi.jpeg": "/static/media/Nishi.6deec9d42183e781729a.jpeg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/Durga.png": "/static/media/Durga.b1168469b3ad10355255.png",
+    "static/media/Avinash.jpeg": "/static/media/Avinash.709c7ef29cc6ff3be492.jpeg",
     "static/media/Saakshi.png": "/static/media/Saakshi.39790a9b1734a1f43624.png",
     "static/media/Harshita.png": "/static/media/Harshita.8c1d9a542801eb1f00bd.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
     "static/media/Mili.png": "/static/media/Mili.a2dcfcca8230be99568f.png",
     "static/media/Dewasis.png": "/static/media/Dewasis.156aa0e8462833b59ead.png",
+    "static/media/Aadarsh.png": "/static/media/Aadarsh.91a1f0910d0d9c6bae39.png",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/t1.jpg": "/static/media/t1.6ce301503a1f3a659800.jpg",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/index.html",
-    "main.50dc371b.css.map": "/static/css/main.50dc371b.css.map",
-    "main.b9e8639c.js.map": "/static/js/main.b9e8639c.js.map"
+    "main.6f49789e.css.map": "/static/css/main.6f49789e.css.map",
+    "main.c191178a.js.map": "/static/js/main.c191178a.js.map"
   },
   "entrypoints": [
-    "static/css/main.50dc371b.css",
-    "static/js/main.b9e8639c.js"
+    "static/css/main.6f49789e.css",
+    "static/js/main.c191178a.js"
   ]
 }
