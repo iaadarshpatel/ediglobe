@@ -20,7 +20,7 @@
 
 @keyframes slide {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
@@ -34,6 +34,8 @@
   flex-wrap: nowrap;
   overflow-x: hidden;
   animation: slide 10s linear infinite;
+  white-space: nowrap; /* Prevent line breaks between images */
+  width: 100%; /* Ensure all images are in view */
 }
 
 
