@@ -30,7 +30,7 @@ const Footer = () => {
     </li>
     <li className='about-details'>
       <span>
-        <BiLogoGmail style={color} className='phone-icon'/><a href="#">info@ediglobe.com</a>
+        <BiLogoGmail style={color} className='phone-icon'/><a href="#">support@ediglobe.com </a>
       </span>
     </li>
     </div>

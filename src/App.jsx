@@ -10,6 +10,8 @@ import Expert from './components/Experts/Expert'
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Aos from 'aos';
+import Company from './components/companies/Company'
+
 
 const App = () => {
   useEffect(() => {
@@ -23,6 +25,7 @@ const App = () => {
           <Course/>
           <Registration/>
           <Expert/>
+          <Company/>
           <Testimonial/>
           <Footer/> 
     </>
