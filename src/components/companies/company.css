@@ -2,7 +2,7 @@
     padding: 50px 0px 50px 0px;
   }
   
-  .registration_area {
+  .company_area {
     background: #002347;
   }
   
@@ -14,18 +14,6 @@
   grid-column-gap: 60px;
   justify-content: flex-start;  
 }
-.gap{
-  margin-bottom: 1.25rem;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
 .image-row {
   display: flex;
@@ -33,17 +21,17 @@
   align-items: center;
   flex-wrap: nowrap;
   overflow-x: hidden;
-  animation: slide 10s linear infinite;
+  animation: fade 5s ease-in-out infinite;
   white-space: nowrap; /* Prevent line breaks between images */
   width: 100%; /* Ensure all images are in view */
 }
 
 
 .image-01{
-  margin:10px;
+  margin: 15px;
   display: inline-block;
   max-height: 1.75rem;
-  max-width: 75px;
+  max-width: 80px;
   object-fit: contain;
 }
 
@@ -61,6 +49,11 @@
 @media (max-width: 575px) {
   .clock_sec h1 {
     font-size: 30px;
+  }
+  .image-01 {
+    max-width: 40px;
+    margin: 0px;
+    max-height: 1rem; /* Adjust the size as needed for smaller screens */
   }
 }
 
@@ -85,6 +78,11 @@
     margin: 0 15px;
     padding: 10px;
     margin-top: 30px;
+  }
+  .image-01 {
+    max-width: 60px;
+    margin: 0px;
+    max-height: 1rem; /* Adjust the size as needed for smaller screens */
   }
 }
 

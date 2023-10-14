@@ -3,9 +3,9 @@ import './company.css';
 
 const Company = () => {
     return (
-        <section id='registration' className='section_gap registration_area'>
+        <section id='company' className='section_gap company_area'>
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center" data-aos="fade-right">
                     <div className="col-lg">
                         <div className="row clock_sec clockdiv image-row" id="clockdiv">
                             <img loading="lazy" className="image-01" alt="" src="https://assets-global.website-files.com/624629162e6c5c363b391aee/6419f7a1a05ce52679a5d78f_Group%2048097659.svg"></img>
@@ -21,7 +21,7 @@ const Company = () => {
                             <img loading="lazy" className="image-01" alt="" src="https://assets-global.website-files.com/624629162e6c5c363b391aee/6419f7a1a05ce52679a5d78f_Group%2048097659.svg"></img>
                             <img loading="lazy" className="image-01" alt="" src="https://assets-global.website-files.com/624629162e6c5c363b391aee/641bfc2ac17bb1bfb438bd8f_Frame%201430102671%20(1).svg"></img>
                             
-                             
+                         
                         </div>
                     </div>
                     
