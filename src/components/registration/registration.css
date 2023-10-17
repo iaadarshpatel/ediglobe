@@ -47,6 +47,9 @@
 }
 
 @media (max-width: 400px) {
+  .break{
+    display: none;
+  }
   .clock_sec .clockinner {
     margin-right: 0;
     padding: 10px 5px;
@@ -58,6 +61,9 @@
 }
 
 @media (max-width: 575px) {
+  .break{
+    display: none;
+  }
   .clock_sec .clockinner:last-child {
     margin-right: 15px;
   }
@@ -69,6 +75,9 @@
 }
 
 @media (max-width: 1199px) {
+  .break{
+    display: none;
+  }
   .clock_sec .clockinner h1 {
     display: block;
   }
@@ -81,6 +90,9 @@
 }
 
 @media (max-width: 991px) {
+  .break{
+    display: none;
+  }
   .register_form {
     margin-top: 60px;
   }

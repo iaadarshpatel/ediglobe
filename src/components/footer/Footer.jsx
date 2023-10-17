@@ -37,7 +37,7 @@ const Footer = () => {
   
 
     <div className="col-lg-2 col-md-6 single-footer-widget">
-    <h4>Features</h4>
+   
     <ul>
     <li><a href="#">About us</a></li>
     <li><a href="#">Terms and conditions </a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
     </div>
 
     <div className="col-lg-2 col-md-6 single-footer-widget">
-    <h4>Resources</h4>
+    
     <ul>
     <li><a href="#">Career</a></li>
     <li><a href="#">FAQ</a></li>

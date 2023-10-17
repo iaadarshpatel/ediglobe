@@ -4,7 +4,6 @@ import { LiaTimesSolid } from 'react-icons/lia';
 import { FaBarsStaggered } from 'react-icons/fa6';
 import logo from "../../assets/EdiGlobe Website-01.png"
 
-
 const Nav = () => {
 
 
@@ -57,7 +56,7 @@ const Nav = () => {
 
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a href="#" onClick={Adarsh} className={`nav-link ${activeNav === '#' ? 'active' : ''}`} aria-current="page">About Us</a>
+                  <a  to="/" onClick={Adarsh} className={`nav-link ${activeNav === '#' ? 'active' : ''}`} aria-current="page">Home</a >
                 </li>
 
                 <li className="nav-item">

@@ -20,13 +20,14 @@ const Registration = () => {
                 <h1>
                   <CountUp className="days" end={500} duration={8} enableScrollSpy={false} />
                 </h1>
+                <br className='break'/>
                 <span className="smalltext">Happy Customers</span>
               </div>
-
               <div className="col clockinner clockinner1">
                 <h1>
                   <CountUp className="days" end={100} duration={8} enableScrollSpy={false} />+
                 </h1>
+                <br className='break'/>
                 <span className="smalltext">Industrial Projects</span>
               </div>
 
@@ -34,6 +35,7 @@ const Registration = () => {
                 <h1>
                   <CountUp className="days" end={5} duration={8} enableScrollSpy={false} />K
                 </h1>
+                <br className='break'/>
                 <span className="smalltext">Registered Users</span>
               </div>
 
@@ -41,6 +43,7 @@ const Registration = () => {
                 <h1>
                   <CountUp className="days" end={30} duration={8} enableScrollSpy={false} />
                 </h1>
+                <br className='break'/>
                 <span className="smalltext">Multifaceted courses</span>
               </div>
 

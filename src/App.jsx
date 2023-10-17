@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Aos from 'aos';
 import Company from './components/companies/Company'
+import FaqComponent  from './components/FAQ/FaqComponent '
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
     Aos.init({duration: 2000});
   },[]);
   return (  
-    <>
+    <> 
           <Nav/>
           <Home/>
           <Feature/>
@@ -27,6 +28,7 @@ const App = () => {
           <Expert/>
           <Company/>
           <Testimonial/>
+          <FaqComponent />
           <Footer/> 
     </>
   );

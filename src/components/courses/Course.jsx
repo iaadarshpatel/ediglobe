@@ -9,6 +9,7 @@ import Auth3 from '../../assets/courses/author3.png'
 import {FiUser} from 'react-icons/fi'
 import {FiHeart} from 'react-icons/fi'
 
+
 const data = [
   {
     id: 1,
